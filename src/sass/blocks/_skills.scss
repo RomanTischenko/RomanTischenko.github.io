@@ -1,0 +1,11 @@
+.skills {
+    margin-top: 180px;
+    height: 500px;
+    background: #161616;
+    &__wrapper {
+        margin-top: 130px;
+        img {
+            padding-right: 25px;
+        }
+    }
+}
