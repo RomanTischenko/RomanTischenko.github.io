@@ -1,0 +1,17 @@
+.corousel {
+    margin-top: 180px;
+    &__wrapper {
+        margin-top: 30px;
+        img {
+            margin-right: 5px;
+            margin-left: 5px;
+            width: 450px;
+            border: 2px solid #FFFFFF;
+            border-radius: 15px;
+            &:hover {
+                border: 2px solid#70FF00;
+            }
+        }
+    }
+    
+}
