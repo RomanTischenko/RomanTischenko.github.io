@@ -9,7 +9,7 @@
 
 body {
     box-sizing: border-box;
-    background: linear-gradient(135deg, #000 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
+    background: linear-gradient(135deg, #000 15%, #272727 80.03%, #494949 99.99%, #727272 100%);
 
 
 }
@@ -17,7 +17,6 @@ body {
 .container {
     width: 1452px;
     margin: 0 auto;
-    background: #000;
 
 }
 
@@ -29,3 +28,4 @@ body {
 }
 
 @import 'blocks/menu';
+@import 'blocks/promo';
