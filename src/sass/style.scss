@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300;400;700&display=swap');
+@import 'libs/bootstrap-reboot.min.scss';
+@import 'libs/slick.scss';
+
+
+* {
+    font-family: "Ysabeau Infant", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #000 0%, #272727 44.03%, #494949 99.99%, #727272 100%);
+
+
+}
+
+.container {
+    width: 1452px;
+    margin: 0 auto;
+    background: #000;
+
+}
+
+.menu {
+    &__container {
+        width: 1569px;
+        margin: 0 auto;
+    }
+}
+
+@import 'blocks/menu';
