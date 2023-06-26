@@ -13,5 +13,24 @@
             }
         }
     }
+    &__link {
+        margin-top: 100px;
+        text-align: center;
+
+    }
+    &__btn {
+        padding: 10px 100px 10px 100px ;
+        border: 2px solid #70FF00;
+        font-size: 23px;
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 15px;
+        color: #fff;
+        transition: 0.6s all;
+        &:hover {
+            border: 2px solid #fff;
+            color:#70FF00;
+        }
+    }
     
 }

@@ -30,10 +30,11 @@
         font-size: 18px;
         font-weight: 700;
         padding: 10px 10px 10px 10px;
-        
-
+        text-decoration: none;
+        transition: 0.6 all;
         &:hover {
             box-shadow: 10px 8px 6px #70FF00;
+
 
         }
 
